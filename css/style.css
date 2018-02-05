@@ -1,0 +1,174 @@
+@font-face{font-family: Myr;src: url('MyriadPro-Light.otf');}
+
+@font-face{font-family: Tahoma;src: url('tahoma.ttf');}
+
+
+
+ul {list-style:none;}
+
+li {list-style:none;}
+
+img {border:none;}
+
+a {color:#272727;text-decoration:underline;}
+
+a:hover {color:#272727;text-decoration:none;}
+
+
+
+body { 
+
+
+
+	margin:0px;
+
+	padding:0px;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	background:url('../images/bg.png') no-repeat center top #1a1d23;
+
+}
+
+
+
+#clear {clear:both;}
+
+#container {width:1000px;z-index:10;margin:0 auto;padding:0 auto;position:relative;}
+
+#cont {margin-top:520px;}
+
+
+
+/****** Container ******/
+
+#ctop {background:url('../images/cont_top.png') no-repeat center;width:960px;height:410px;margin-left:20px;position:absolute;margin-top:-50px;}
+
+#cbg {background:url('../images/cont_bg.png') repeat-y;width:960px;min-height:474px;height:auto;margin-left:20px;}
+
+#cbot {background:url('../images/cont_bot.png') no-repeat center;width:960px;height:480px;margin-left:20px;margin-top:-2px;}
+
+#footer {background:url('../images/footer.png') no-repeat transparent center bottom;width:100%;height:917px;margin-top:-800px;}
+
+
+
+/****** Menu ******/
+
+#menu {width:344px;display:inline-block;vertical-align:top;text-align:center;padding-top:8px;}
+
+.mtxt {font-family:'Myr';font-size:20px;color:#121212;}
+
+#first {background:url('../images/menu/1.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#first:hover {background:url('../images/menu/1.png') 0 -53px no-repeat transparent;}
+
+#second {background:url('../images/menu/2.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#second:hover {background:url('../images/menu/2.png') 0 -53px no-repeat transparent;}
+
+#third {background:url('../images/menu/3.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#third:hover {background:url('../images/menu/3.png') 0 -53px no-repeat transparent;}
+
+#fourth {background:url('../images/menu/4.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#fourth:hover {background:url('../images/menu/4.png') 0 -53px no-repeat transparent;}
+
+#fifth {background:url('../images/menu/5.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#fifth:hover {background:url('../images/menu/5.png') 0 -53px no-repeat transparent;}
+
+#sixth {background:url('../images/menu/6.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#sixth:hover {background:url('../images/menu/6.png') 0 -53px no-repeat transparent;}
+
+#seventh {background:url('../images/menu/7.png') 0 -0px no-repeat transparent;width:292px;height:53px;display:inline-block;vertical-align:top;}
+
+#seventh:hover {background:url('../images/menu/7.png') 0 -53px no-repeat transparent;}
+
+
+
+/****** Server Status ******/
+
+#status {width:600px;display:inline-block;vertical-align:top;text-align:center;padding-top:60px;}
+
+#sttitle {font-family:'Myr';font-size:22px;color:#121212;}
+
+#sttxt {font-family:'Myr';font-size:19px;color:#121212;display:inline-block;vertical-align:top;margin-top:15px;}
+
+#sttxt a {text-decoration:underline;color:#272727;font-size:12px;}
+
+#sttxt a:hover {text-decoration:none;}
+
+#sttxt2 {padding-left:30px;font-family:'Myr';font-size:19px;color:#121212;display:inline-block;vertical-align:top;margin-top:15px;}
+
+#sttxt2 a {text-decoration:underline;color:#272727;font-size:12px;}
+
+#sttxt2 a:hover {text-decoration:none;}
+
+
+
+/****** Side ******/
+
+#left {width:307px;display:inline-block;vertical-align:top;padding-top:370px;margin-left:20px;word-wrap:break-word;height:auto;}
+
+.sacl {display:inline-block;width:142px;font-family:'Myr';font-size:21px;}
+
+.sacr {display:inline-block;text-align:right;width:142px;font-family:'Myr';font-size:21px;color:#7d9400;}
+
+#stitle {color:#212121;font-family:'Myr';font-size:27px;text-align:center;}
+
+#forum {background:url('../images/forum.png') no-repeat;width:284px;height:46px;margin-left:11px;opacity:0.8;-webkit-transition: all 500ms ease;-moz-transition: all 500ms ease;-ms-transition: all 500ms ease;-o-transition: all 500ms ease;transition: all 500ms ease;}
+
+#forum:hover {opacity:1;-webkit-transition: all 500ms ease;--ms-transition: all 500ms ease;-o-transition: all 500ms ease;transition: all 500ms ease;}
+
+#forum .title {width:272px;margin-left:6px;margin-right:6px;padding-left:4px;padding-right:4px;font-family:'Myr';font-size:19px;color:#121212;text-decoration:underline;text-align:center;color:#000;-o-text-overflow:ellipsis;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+#forum .title:hover {text-decoration:none;color:#000;}
+
+#forum .author {width:284px;float:right;font-family:'Myr';font-size:12px;color:#252525;text-align:right;padding-right:10px;}
+
+
+
+/****** News ******/
+
+
+#right {width:580px;display:inline-block;vertical-align:top;padding-top:180px;margin-left:20px;word-wrap:break-word;height:auto;}
+
+#ntitle {width:580px;font-family:'Myr';font-size:23px;color:#1f1f1f;text-align:center;}
+
+#nimg {text-align:center;width:580px;height:188px;margin-top:15px;}
+
+#ntxt {font-family:'Tahoma';font-size:12px;color:#121212;text-align:center;margin-top:15px;}
+
+#nseperator {background:url('../images/seperator.png') no-repeat;width:584px;height:6px;margin-top:20px;margin-bottom:20px;}
+
+
+
+/****** Tops ******/
+
+#tops {width:960px;height:426px;padding-top:71px;}
+
+#ttitle {font-family:'Myr';font-size:25px;color:#5a0404;text-align:center;}
+
+#tspot {width:220px;padding-top:35px;display:inline-block;vertical-align:top;padding-left:50px;}
+
+#twhat {font-family:'Myr';font-size:24px;color:#1e1e1e;text-align:center;}
+
+#ttop {font-family:'Myr';font-size:16px;color:#303030;width:220px;padding-left:5px;}
+
+#ttop:hover {color:#1d1d1d;-webkit-transition: all 500ms ease;--ms-transition: all 500ms ease;-o-transition: all 500ms ease;transition: all 500ms ease;}
+
+
+
+/****** Copyright ******/
+
+#copyright {background:url('../images/footer/bg.png') no-repeat;width:480px;height:auto;min-height:149px;word-wrap:break-word;font-family:'Myr';font-size:14px;color:#e7cbb4;padding-top:10px;}
+
+#copyright a {text-decoration:underline;color:#e7cbb4;}
+
+#copyright a:hover {text-decoration:none;}
+
+#copyright img {opacity:0.5;}
